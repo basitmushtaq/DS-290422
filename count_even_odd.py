@@ -9,4 +9,4 @@ for num in numbers:
         odd+=1
 
 print('Number of even numbers : ',even)
-print('Number of even numbers : ',odd)
+print('Number of odd numbers : ',odd)
