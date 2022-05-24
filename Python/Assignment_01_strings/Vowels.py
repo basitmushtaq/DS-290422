@@ -2,7 +2,7 @@
 sentence=input().lower()
 vowels=['a','e','i','o','u']
 count=0
-for vowel in vowels:
-    if vowel in sentence:
+for alpha in sentence:
+       if alpha in vowels:
         count+=1
 print(count)
