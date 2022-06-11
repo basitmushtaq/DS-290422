@@ -6,12 +6,7 @@ n: 2
 Sample Output:
 100
 """
-class power:
-    def __init__(self,base,exp):
-        self.base=base
-        self.exp=exp
-    def execute(self):
-        return(self.base**self.exp)
+from Class import *
 base=int(input("X: "))
 exp=int(input('n: '))
 power_obj=power(base,exp)
