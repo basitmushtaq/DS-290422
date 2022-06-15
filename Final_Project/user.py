@@ -41,10 +41,13 @@ class User():
 
     def display_history(self):
         history=self.history
-        for i,item in enumerate(history):
-            print(f'Order no.{i+1} :')
-            for food_obj in item:
-                print(f'Name    :\t{food_obj.get_name()}')
+        if history:
+            for i,item in enumerate(history):
+                print(f'Order no.{i+1} :')
+                for food_obj in item:
+                    print(f'Name    :\t{food_obj.get_name()}')
+        else:
+            print('No records Found')
 
 
 
